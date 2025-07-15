@@ -1505,12 +1505,12 @@ input::-moz-focus-inner {
     left: 25px;
   }
   .header-logo img img {
-    max-width: 100px;
+    max-width: 130px;
     height: auto;
   }
 
   .header-logo img {
-    max-width: 100px;
+    max-width: 130px;
     height: auto;
   }
 

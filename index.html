@@ -1,540 +1,879 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en" data-theme="dark">
 <head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>HNLabs</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- ═══ PRIMARY SEO ═══════════════════════════════════════════ -->
+<title>HN Labs | Cybersecurity & Penetration Testing Services — Kenya & Global</title>
+<meta name="description" content="HN Labs is a specialist cybersecurity firm offering penetration testing, vulnerability assessment, cloud security, mobile security, and AI-powered scanning. Trusted by AT&T, Safaricom, CaptivateIQ and more. Based in Kenya, serving globally."/>
+<meta name="keywords" content="penetration testing Kenya, cybersecurity company Nairobi, ethical hacking, web application security, API security testing, cloud security GCP AWS, mobile security OWASP MASTG, vulnerability assessment, incident response, red team, HN Labs"/>
+<meta name="author" content="HN Labs"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://hnlabs.me/"/>
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ═══ OPEN GRAPH (Facebook / LinkedIn) ════════════════════ -->
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="HN Labs"/>
+<meta property="og:url" content="https://hnlabs.me/"/>
+<meta property="og:title" content="HN Labs | Cybersecurity & Penetration Testing — Kenya & Global"/>
+<meta property="og:description" content="Expert penetration testing, cloud security, mobile security, and AI-powered vulnerability scanning. Trusted by AT&T, Safaricom, CaptivateIQ and leading organisations worldwide."/>
+<meta property="og:image" content="https://hnlabs.me/images/og-cover.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="HN Labs — Cybersecurity & Penetration Testing"/>
+<meta property="og:locale" content="en_KE"/>
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+<!-- ═══ TWITTER / X CARD ════════════════════════════════════ -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@hnlabs_me"/>
+<meta name="twitter:creator" content="@hnlabs_me"/>
+<meta name="twitter:title" content="HN Labs | Cybersecurity & Penetration Testing"/>
+<meta name="twitter:description" content="Expert pen testing, cloud security, mobile security & AI-powered scanning. Trusted by AT&T, Safaricom, CaptivateIQ and more."/>
+<meta name="twitter:image" content="https://hnlabs.me/images/og-cover.png"/>
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+<!-- ═══ GEO / REGIONAL ══════════════════════════════════════ -->
+<meta name="geo.region" content="KE-30"/>
+<meta name="geo.placename" content="Nairobi, Kenya"/>
+<meta name="geo.position" content="-1.286389;36.817223"/>
+<meta name="ICBM" content="-1.286389, 36.817223"/>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="images/clients/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/clients/favicon.ico" type="image/x-icon">
+<!-- ═══ THEME & PWA ════════════════════════════════════════ -->
+<meta name="theme-color" content="#00ff88"/>
+<meta name="msapplication-TileColor" content="#080c0a"/>
+<meta name="application-name" content="HN Labs"/>
 
+<!-- ═══ PERFORMANCE HINTS ═══════════════════════════════════ -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com"/>
+
+<!-- ═══ FONTS ═══════════════════════════════════════════════ -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+<!-- ═══ ICONS ═══════════════════════════════════════════════ -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+
+<!-- ═══ STRUCTURED DATA — Organisation ══════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "HN Labs",
+  "alternateName": "HNLabs",
+  "url": "https://hnlabs.me",
+  "logo": "https://hnlabs.me/images/clients/hn-logo.png",
+  "description": "HN Labs is a specialist cybersecurity firm offering penetration testing, vulnerability assessment, cloud security, AI-powered scanning, mobile security, and incident response services globally.",
+  "foundingDate": "2024",
+  "email": "contact@hnlabs.me",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nairobi",
+    "addressCountry": "KE"
+  },
+  "areaServed": ["KE","US","AU","GB","Global"],
+  "sameAs": [
+    "https://blog.hnlabs.me",
+    "https://github.com/hnlabs",
+    "https://linkedin.com/company/hnlabs",
+    "https://twitter.com/hnlabs"
+  ],
+  "knowsAbout": [
+    "Penetration Testing",
+    "Vulnerability Assessment",
+    "Cloud Security",
+    "Mobile Application Security",
+    "Incident Response",
+    "Red Team Operations",
+    "OWASP",
+    "DevSecOps"
+  ]
+}
+</script>
+
+<!-- ═══ STRUCTURED DATA — Local Business ════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "HN Labs",
+  "image": "https://hnlabs.me/images/og-cover.png",
+  "url": "https://hnlabs.me",
+  "telephone": "",
+  "email": "security@hnlabs.me",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nairobi",
+    "addressRegion": "Nairobi County",
+    "addressCountry": "KE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -1.286389,
+    "longitude": 36.817223
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Cybersecurity Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Penetration Testing"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Web Application Security Assessment"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"API Security Testing"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cloud Security Review (GCP, AWS, Azure)"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Application Security (OWASP MASTG)"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Incident Response & Digital Forensics"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Red Team Operations"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Secure Code Review"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Security Awareness Training"}}
+    ]
+  }
+}
+</script>
+
+<!-- ═══ STRUCTURED DATA — FAQPage ════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What cybersecurity services does HN Labs offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HN Labs offers penetration testing, web and API security assessments, cloud security reviews (GCP, AWS, Azure), mobile application security testing (OWASP MASTG), AI-powered vulnerability scanning with HN-Scanner, secure code review, incident response, and security awareness training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is HN Labs based?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HN Labs is based in Nairobi, Kenya, and serves clients globally including in the USA, Australia, and across Africa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is HN-Scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HN-Scanner is HN Labs' proprietary AI-powered security scanner that combines automated enumeration, LLM-assisted payload generation, and business-logic attack heuristics to surface vulnerabilities that generic scanners miss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact HN Labs for a security assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can reach HN Labs by emailing security@hnlabs.me. The team typically responds within 24 hours, and emergency incident response is available within 15 minutes."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ═══ STRUCTURED DATA — WebSite (Sitelinks Searchbox) ═════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "HN Labs",
+  "url": "https://hnlabs.me",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://hnlabs.me/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="icon" type="image/x-icon" href="images/icons/favicon.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="images/icons/favicon.ico"/>
+<link rel="apple-touch-icon" href="images/clients/hn-logo.png"/>
 </head>
-
-<body id="top">
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo">
-                <img src="images/clients/hn-logo.jpg" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>HN Labs</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                </ul>
-
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-                <h1>
-                Hello folks, we are <br>
-                HN Labs.
-                </h1>
-
-                <p>
-                We do Security Assessments, Audits and Engineering <br>
-                that will help your company be more secure than it was before you met us.
-                </p>
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-sidelinks">
-            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-            <li><a  class="smoothscroll" href="#works">Portfolio<span>our clients</span></a></li>
-            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-        </ul> <!-- end home-sidelinks -->
-
-        <ul class="home-social">
-            <li class="home-social-title">Follow Us</li>
-            <li><a href="#0">
-                <i class="fab fa-facebook"></i>
-                <span class="home-social-text">Facebook</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-twitter"></i>
-                <span class="home-social-text">Twitter</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-linkedin"></i>
-                <span class="home-social-text">LinkedIn</span>
-            </a></li>
-        </ul> <!-- end home-social -->
-
-        <a href="#about" class="home-scroll smoothscroll">
-            <span class="home-scroll__text">Scroll Down</span>
-            <span class="home-scroll__icon"></span>
-        </a> <!-- end home-scroll -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Who We Are</h3>
-                <h1 class="display-1">We are a group of security engineers and penetration testers, securing the world one implementation and test at a time.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                We are a security-focused team specializing in penetration testing and technical audits across cloud, network, and application environments.
-                Our work spans mobile and web application assessments, including in-depth API and source code reviews.
-                Beyond client work, we build scripts and tools to automate tasks for fun, explore new vulnerabilities, AI integrations, and share with the community.
-                Our mission is to help organizations secure their systems before attackers do.
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row">
-                
-            <div class="about-process process block-1-2 block-tab-full">
-
-                <div class="process__vline-left"></div>
-                <div class="process__vline-right"></div>
-
-                <div class="col-block process__col" data-item="1" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Discover</h4>
-
-                        <p>
-                        We begin by identifying critical assets, potential attack surfaces, and business logic exposures.
-                        This phase includes scoping and understanding the environment — cloud, web, mobile, APIs, and infrastructure.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="2" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Analyze</h4>
-
-                        <p>
-                        We evaluate systems for misconfigurations, outdated software, exposed services, and insecure code.
-                        Our methodology blends manual and automated techniques to uncover hidden or complex vulnerabilities.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="3" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Exploit</h4>
-
-                        <p>
-                        We simulate real-world attacks using custom scripts and tools to validate risks and demonstrate impact. This step ensures findings are not theoretical — they are actionable and relevant.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="4" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Secure</h4>
-
-                        <p>
-                        We provide prioritized remediation guidance, tailored to your environment and development workflows.
-                        Our goal is to not just find vulnerabilities — but help you close them effectively and efficiently.
-                        </p>
-                    </div>
-                </div>
-
-            </div> <!-- end process -->
-
-        </div> <!-- end about-stats -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services light-gray">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-1">We do what we have to do to make you secure and keep you secure.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                At HNLabs, we help organizations secure their software, infrastructure, and development workflows through expert-driven offensive security assessments and DevSecOps engineering. Our core services include penetration testing, secure code reviews, cloud security assessments, and CI/CD pipeline hardening. We partner closely with engineering teams to identify vulnerabilities early, automate security controls, and embed best practices across the SDLC. Whether you're launching a new product or scaling your platform, we provide the tools, expertise, and guidance to ensure your systems are resilient, secure, and built for the real world.
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="service-icon service-icon--web-design">
-                    <i class="icon-tv"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Application Security</h3>
-                    <p>We perform comprehensive assessments to identify and remediate vulnerabilities in your web, mobile, and desktop applications. Our approach includes threat modeling, secure coding guidance, and both manual and automated testing to ensure your applications are secure.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">DevSecOps</h3>
-                    <p>We integrate security into your development pipelines without slowing down delivery. From automated static and dynamic analysis to secret scanning, dependency checks, and infrastructure-as-code reviews, we enable secure CI/CD integration. We also review the current pipeline for security issues.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-earth"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4">Penetration Testing</h3>
-                    <p>Our team simulates real-world attacks on your applications, APIs, cloud environments, and infrastructure to uncover critical vulnerabilities before attackers do. We provide actionable reports, retesting, and remediation guidance based on industry best practices like OWASP and PTES.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--product-strategy">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Secure Design</h3>
-                    <p>We help teams architect systems that are secure by default. From security design reviews to architectural threat modeling, we ensure your platforms follow secure patterns, apply the principle of least privilege, and reduce attack surfaces before any code is written.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--ui-design">
-                    <i class="icon-window"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Vulnerability Management</h3>
-                    <p>We establish and optimize your vulnerability management program by identifying, prioritizing, and tracking security issues across your assets. Whether integrating scanners, triaging findings, or aligning with SLAs, we help you stay ahead of threats with structured remediation workflows.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--mobile-dev">
-                    <i class="icon-lego-block"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">API Security</h3>
-                    <p>We secure REST, GraphQL, and third-party APIs by identifying vulnerabilities such as broken authentication, excessive data exposure, and business logic flaws. Our testing covers both public and internal APIs, using a manual and automated techniques.hardened.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-earth"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4">External Attack Surface Mapping</h3>
-                    <p>We help identify and assess your organization's exposed digital assets — including domains, subdomains, IP ranges, cloud resources, and third-party integrations. Using advanced reconnaissance and OSINT techniques, we help reduce your attack surface.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-earth"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4">Security Training</h3>
-                    <p>We deliver targeted training to help teams build secure software and improve security awareness. Our sessions cover CI/CD security, secure coding, application security, and phishing simulations, tailored to your environment and delivered through interactive workshops or virtual labs.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-earth"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4">Threat Modeling & Risk Assessment</h3>
-                    <p>We guide teams through structured threat modeling exercises to uncover design-level risks and prioritize mitigation strategies. By aligning with frameworks like STRIDE, we help you proactively identify potential threats before code is written or deployed..
-                    </p>
-                </div>
-            </div>
-
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-    <!-- works
-    ================================================== -->
-    <section id='works' class="s-works">
-                
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Clients Worked with</h3>
-                <h1 class="display-1">Some clients we've helped secure.</h1>
-
-
-                <!-- client list
-    ================================================== -->
-
-        <div class="row services-list block-1-4 block-m-1-4 block-tab-full">
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/engineroom-logo.png" alt="engineroom">
-                </div>
-            </div>
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/captivateiq-logo.jpg" alt="captivateiq">
-                </div>
-            </div>
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/cloudspinx-logo3.jpg" alt="cloudspinx">
-                </div>
-            </div>
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/att-logo.jpg" alt="att">
-                </div>
-            </div>
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/ciriusiq-logo.jpg" alt="ciriusiq">
-                </div>
-            </div>
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/tecno-logo.jpg" alt="tecno">
-                </div>
-            </div>
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="client-circle-bg">
-                   <img class="client-circle" src="images/clients/safaricom-logo.jpeg" alt="safaricom">
-                </div>
-            </div>
-
-        </div> <!-- end client-list -->
-
-
-        </div>
-        </div> <!-- end section-header -->
-
-    </section> <!-- end s-works -->
-
-
-    <!-- stats
-    ================================================== -->
-    <section id="stats" class="s-stats">
-
-        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
-            <div class="col-block stats__col ">
-                <div class="stats__count">19</div>
-                <h5>Projects Completed</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">8</div>
-                <h5>Happy Clients</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">15</div>
-                <h5>Custom Tools/Scripts</h5>
-            </div>
-
-        </div> <!-- end stats -->
-
-    </section> <!-- end s-stats -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch and let's secure you, together.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row">
-
-            <div class="col-full contact-main" data-aos="fade-up">
-                <p>
-                <a href="mailto:security@hnlabs.me" class="contact-email"><span>security@hnlabs.me</span></a>
-                <span class="contact-number">+254 727431617</span>
-                </p>
-            </div> <!-- end contact-main -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Follow Us</h3>
-
-                <ul class="contact-social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-
-                </ul> <!-- end contact-social -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end row -->
-
-        <div class="cl-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">            
-        </div>
+<body>
+<!-- Skip to content for accessibility / SEO -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<!-- CUSTOM CURSOR -->
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+<div id="cur-scan"></div>
+
+<!-- NAV -->
+<header>
+<nav aria-label="Main navigation">
+  <a href="#home" class="nav-brand" aria-label="HN Labs home">
+    <img src="images/clients/hn-logo.png" alt="HN Labs" class="nav-logo"/>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#inhouse">Projects</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#training">Training</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:.75rem;">
+    <button class="theme-toggle" id="themeBtn" title="Toggle theme"><i class="fas fa-sun" id="themeIcon"></i></button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+</header>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#home" onclick="closeMobile()">Home</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#inhouse" onclick="closeMobile()">Projects</a>
+  <a href="#clients" onclick="closeMobile()">Clients</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#training" onclick="closeMobile()">Training</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</div>
+<main id="main-content">
+<!-- HERO -->
+<section id="home" aria-label="Hero — HN Labs Cybersecurity">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Security Engineering, Threat Intelligence &amp; Ethical Hacking</div>
+    <h1 class="hero-title">
+      Secure Your<br><span class="accent" id="typeTarget"></span>
+    </h1>
+    <p class="hero-sub">Expert cybersecurity and penetration testing services to protect your business from evolving cyber threats. Strengthening your security posture through assessments, audits, and engineering — making you more secure than before.</p>
+    <div class="cta-group">
+      <a href="#services" class="btn btn-primary"><i class="fas fa-shield-alt"></i> Our Services</a>
+      <a href="#contact" class="btn btn-ghost"><i class="fas fa-terminal"></i> Get a Quote</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-terminal">
+      <div class="term-bar">
+        <div class="term-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+        <span class="term-title">root@hnlabs:~#</span>
+      </div>
+      <div class="term-body" id="heroTerminal"></div>
     </div>
 
+    <div class="vuln-grid" style="margin-top:1rem;">
+      <div class="vuln-badge crit">
+        <span class="sev sev-crit">CRITICAL</span>
+        <h6><i class="fas fa-database" style="color:var(--red)"></i> SQL Injection</h6>
+        <p>CVSS 9.8 — Auth bypass in login form</p>
+      </div>
+      <div class="vuln-badge high">
+        <span class="sev sev-high">HIGH</span>
+        <h6><i class="fas fa-code" style="color:#ff6b35"></i> Stored XSS</h6>
+        <p>CVSS 7.2 — Comment endpoint</p>
+      </div>
+      <div class="vuln-badge med">
+        <span class="sev sev-med">MEDIUM</span>
+        <h6><i class="fas fa-network-wired" style="color:var(--amber)"></i> SSRF</h6>
+        <p>CVSS 6.5 — Internal metadata access</p>
+      </div>
+      <div class="vuln-badge low">
+        <span class="sev sev-low">LOW</span>
+        <h6><i class="fas fa-info-circle" style="color:#7bed9f"></i> Info Disclosure</h6>
+        <p>CVSS 3.1 — Server headers exposed</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stats-inner">
+    <div class="stat-cell reveal">
+      <span class="stat-num" data-target="20">0</span>
+      <div class="stat-label">Security Assessments</div>
+      <div class="stat-detail">98 critical vulns found</div>
+    </div>
+    <div class="stat-cell reveal">
+      <span class="stat-num" data-target="10">0</span>
+      <div class="stat-label">Clients Secured</div>
+      <div class="stat-detail">Across 6+ industries</div>
+    </div>
+    <div class="stat-cell reveal">
+      <span class="stat-num" data-target="80">0</span>
+      <div class="stat-label">Bugs Discovered</div>
+      <div class="stat-detail">$100K+ in bounties</div>
+    </div>
+    <div class="stat-cell reveal">
+      <span class="stat-num" data-target="92">0</span>
+      <div class="stat-label">% Client Satisfaction</div>
+      <div class="stat-detail">24/7 incident response</div>
+    </div>
+  </div>
+</div>
 
+<div class="divider"></div>
+
+<!-- SERVICES -->
+<section id="services" class="section" aria-label="Our cybersecurity services">
+  <p class="section-heading">What we do</p>
+  <h2 class="section-title">Our Services</h2>
+  <p class="section-sub">Comprehensive cybersecurity solutions tailored to protect your business from evolving digital threats.</p>
+
+  <div class="services-grid">
+
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fas fa-user-secret"></i></div>
+      <h3>Penetration Testing</h3>
+      <p>Comprehensive security assessments to identify vulnerabilities in your systems, networks, and applications before malicious actors do.</p>
+      <div class="mini-code">
+<span class="pmt">$</span> nmap -sS -sV -O <span class="str">target.com</span>
+<span class="pmt">$</span> sqlmap -u <span class="str">"http://target.com/login"</span>
+<span class="pmt">$</span> gobuster dir -u <span class="str">target.com</span> -w wordlist.txt
+<span class="pmt">$</span> nikto -h <span class="str">target.com</span>
+      </div>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+      <h3>Security Auditing</h3>
+      <p>Detailed audits of your infrastructure, policies, and procedures to ensure compliance and an optimal security posture.</p>
+      <div class="mini-code">
+<span class="cm"># Security Compliance Scan</span>
+<span class="kw">import</span> subprocess
+result = subprocess.run([<span class="str">'nessus_scan'</span>, <span class="str">'--target'</span>, <span class="str">'network'</span>])
+<span class="kw">if</span> result.returncode == <span class="str">0</span>:
+    <span class="kw">print</span>(<span class="str">"✓ Compliance check passed"</span>)
+      </div>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fas fa-bug"></i></div>
+      <h3>Vulnerability Assessment</h3>
+      <p>Systematic identification and evaluation of security weaknesses — SQLi, XSS, SSRF, IDOR, and beyond — across your entire digital infrastructure.</p>
+      <div class="mini-code">
+<span class="cm">&lt;!-- OpenVAS Scan Result --&gt;</span>
+&lt;<span class="kw">vulnerability</span> id=<span class="str">"CVE-2024-1234"</span>&gt;
+  &lt;<span class="kw">type</span>&gt;<span class="err-t">SSRF</span>&lt;/<span class="kw">type</span>&gt;
+  &lt;<span class="kw">severity</span>&gt;<span class="err-t">High</span>&lt;/<span class="kw">severity</span>&gt;
+  &lt;<span class="kw">cvss_score</span>&gt;<span class="str">6.5</span>&lt;/<span class="kw">cvss_score</span>&gt;
+&lt;/<span class="kw">vulnerability</span>&gt;
+      </div>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fas fa-code"></i></div>
+      <h3>Secure Code Review</h3>
+      <p>Expert analysis of your application source code to identify security flaws and provide remediation guidance.</p>
+      <div class="mini-code">
+<span class="cm">// ❌ Vulnerable — SQL Injection</span>
+<span class="err-t">const q = `SELECT * FROM users WHERE id = ${userId}`;</span>
+<span class="cm">// ✅ Fixed — Parameterized query</span>
+<span class="kw">const</span> q = <span class="str">'SELECT * FROM users WHERE id = ?'</span>;
+db.query(q, [userId]);
+      </div>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fas fa-cloud"></i></div>
+      <h3>Cloud Security</h3>
+      <p>AWS, GCP, and Azure security reviews, IAM hardening, misconfiguration detection, and cloud-native attack simulation.</p>
+      <div class="mini-code">
+<span class="cm"># GCP/AWS Security Audit</span>
+<span class="pmt">$</span> aws s3api get-bucket-acl --bucket prod
+<span class="pmt">$</span> gcloud iam list-testable-permissions
+<span class="pmt">$</span> aws iam get-account-summary
+      </div>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+      <h3>Mobile Security</h3>
+      <p>Comprehensive iOS and Android application security testing following OWASP MASTG — covering static analysis, dynamic instrumentation, certificate pinning bypass, and reverse engineering.</p>
+      <div class="mini-code">
+<span class="cm"># Android APK static analysis</span>
+<span class="pmt">$</span> apktool d target.apk -o ./decompiled
+<span class="pmt">$</span> frida -U -f com.target.app <span class="cm">\</span>
+      --script ssl_pinning_bypass.js
+<span class="t-warn">[!]</span>  SSL pinning bypassed — traffic intercepted
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<div class="divider"></div>
+
+<!-- IN-HOUSE PROJECTS -->
+<section id="inhouse" class="section" aria-label="In-house security tools and projects">
+  <p class="section-heading">Built in-house</p>
+  <h2 class="section-title">Our Own Tools & Projects</h2>
+  <p class="section-sub">Beyond client work — tools, scripts, and research we build for fun, automation, and the community.</p>
+
+  <div class="inhouse-grid">
+
+    <div class="inhouse-card reveal">
+      <div class="inhouse-card-header">
+        <div class="inhouse-icon" style="color:var(--blue);background:rgba(78,205,196,.08);border-color:rgba(78,205,196,.2);"><i class="fas fa-robot"></i></div>
+        <div>
+          <h4>HN-Scanner</h4>
+          <span class="inhouse-badge" style="background:rgba(78,205,196,.12);color:var(--blue);border-color:rgba(78,205,196,.25);">AI-Powered · Active</span>
+        </div>
+      </div>
+      <p>Our flagship in-house tool. An AI-augmented web and API security scanner that combines LLM-assisted payload generation, business-logic attack heuristics, and automated evidence collection. Surfaces what Burp and other scanners miss.</p>
+      <div class="inhouse-meta">
+        <span><i class="fab fa-python"></i> Python</span>
+        <span><i class="fas fa-brain"></i> LLMs</span>
+      </div>
+
+    </div>
+
+    <div class="inhouse-card reveal">
+      <div class="inhouse-card-header">
+        <div class="inhouse-icon" style="color:var(--amber);background:rgba(255,165,2,.08);border-color:rgba(255,165,2,.2);"><i class="fas fa-mobile"></i></div>
+        <div>
+          <h4>ATPST</h4>
+          <span class="inhouse-badge" style="background:rgba(255,165,2,.1);color:var(--amber);border-color:rgba(255,165,2,.25);">Automation · Stable</span>
+        </div>
+      </div>
+      <p>An Android Pentesting tool designed to automate the tideous task of setting up the day to day tools, installing burp certificates, setting up frida etc. This enables a speedy setup process, saving on the much needed time.</p>
+      <div class="inhouse-meta">
+        <span><i class="fab fa-python"></i> Python</span>
+        <span><i class="fas fa-envelope"></i> Android</span>
+      </div>
+    </div>
+
+    <div class="inhouse-card reveal">
+      <div class="inhouse-card-header">
+        <div class="inhouse-icon" style="color:var(--green);"><i class="fas fa-chart-line"></i></div>
+        <div>
+          <h4>Security Dashboard</h4>
+          <span class="inhouse-badge">Monitoring · Beta</span>
+        </div>
+      </div>
+      <p>A unified security dashboard aggregating DefectDojo findings, cloud asset inventory (GCP/DIGITAL OCEAN), IRU (EDR), Cloudflare, HIBP, etc. results into a single real-time pane of glass for easy access at a glance.</p>
+      <div class="inhouse-meta">
+        <span><i class="fab fa-react"></i> React</span>
+        <span><i class="fas fa-server"></i> FastAPI</span>
+        <span><i class="fab fa-google"></i> Python</span>
+      </div>
+    </div>
+
+    <div class="inhouse-card reveal">
+      <div class="inhouse-card-header">
+        <div class="inhouse-icon" style="color:var(--red);background:rgba(255,71,87,.08);border-color:rgba(255,71,87,.2);"><i class="fas fa-search"></i></div>
+        <div>
+          <h4>WAFerizer</h4>
+          <span class="inhouse-badge" style="background:rgba(255,71,87,.1);color:var(--red);border-color:rgba(255,71,87,.25);">WAF · Active</span>
+        </div>
+      </div>
+      <p>A command-line tool that automates the testing of known payloads against web endpoints to determine if a Web Application Firewall (WAF) is blocking them. It helps security researchers and penetration testers identify which payloads are being filtered, detected, or allowed through.</p>
+      <div class="inhouse-meta">
+        <span><i class="fab fa-python"></i> Bash</span>
+        <span><i class="fas fa-code-branch"></i> Open Source</span>
+      </div>
+    </div>
+
+    <div class="inhouse-card reveal">
+      <div class="inhouse-card-header">
+        <div class="inhouse-icon" style="color:#b8a9ff;background:rgba(184,169,255,.08);border-color:rgba(184,169,255,.2);"><i class="fas fa-shield-virus"></i></div>
+        <div>
+          <h4>Oauth Scanner</h4>
+          <span class="inhouse-badge" style="background:rgba(184,169,255,.1);color:#b8a9ff;border-color:rgba(184,169,255,.25);">Research · Experimental</span>
+        </div>
+      </div>
+      <p>A lightweight security scanner that monitors OAuth and MFA authentication flows in real-time, detecting vulnerabilities as you browse your application.</p>
+      <div class="inhouse-meta">
+        <span><i class="fab fa-python"></i> Python</span>
+        <span><i class="fab fa-react"></i> React</span>
+      </div>
+    </div>
+
+    <div class="inhouse-card reveal">
+      <div class="inhouse-card-header">
+        <div class="inhouse-icon" style="color:#ff8fb1;background:rgba(255,143,177,.08);border-color:rgba(255,143,177,.2);"><i class="fas fa-user-check"></i></div>
+        <div>
+          <h4>FaceEyeDee</h4>
+          <span class="inhouse-badge" style="background:rgba(255,143,177,.1);color:#ff8fb1;border-color:rgba(255,143,177,.25);">Internal · Stable</span>
+        </div>
+      </div>
+      <p>An experimental but working concept of a script that uses the device camera to lock the screen when the registered user is away from the laptop and unlock when the user is sitting behind the screen (this one only works for linux)</p>
+      <div class="inhouse-meta">
+        <span><i class="fab fa-python"></i> python</span>
+        <span><i class="fab fa-python"></i> bash</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CLIENTS -->
+<section id="clients" class="section" aria-label="Clients we have helped secure">
+  <p class="section-heading">Some clients we've helped secure</p>
+  <h2 class="section-title">Our Clients</h2>
+  <p class="section-sub">From African telcos and fintech platforms to global SaaS companies — organisations that trust HN Labs to protect their most critical assets.</p>
+
+  <!-- Logo strip — real client logos -->
+  <div class="client-logo-strip reveal">
+    <div class="cls-logo-wrap">
+      <img src="images/clients/engineroom-logo.png" alt="The Engine Room" class="cls-img"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/captivateiq-logo.jpg" alt="CaptivateIQ" class="cls-img"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/cloudspinx-logo.jpg" alt="CloudSpinx" class="cls-img"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/potent-dynamics.jpg" alt="Potent Dynamics" class="cls-img"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/ciriusiq-logo.jpg" alt="CiriusIQ" class="cls-img cls-img-dark"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/tecno-logo.jpg" alt="TECNO Mobile" class="cls-img"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/safaricom-logo.jpeg" alt="Safaricom" class="cls-img cls-img-round"/>
+    </div>
+    <div class="cls-logo-wrap">
+      <img src="images/clients/workpay-logo.jpg" alt="Workpay" class="cls-img"/>
+    </div>
+  </div>
+
+  <!-- Detailed client cards — real logos -->
+  <div class="clients-grid" style="margin-top:2.5rem;">
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap">
+          <img src="images/clients/engineroom-logo.png" alt="The Engine Room" class="client-logo-img" style="filter:invert(0);"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>Engine Room</h5>
+        <span class="client-sector">AI / HPC / DeepTech</span>
+        <p>Application security assessment for The Engine Room — evaluating web application security, authentication flows, RBAC, API exposure, and overall configuration of client- and server-side controls across core platform services.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-bug"></i> API Security Audit</span>
+          <span class="outcome-pill"><i class="fas fa-shield-alt"></i> Infra Hardened</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#fff;">
+          <img src="images/clients/captivateiq-logo.jpg" alt="CaptivateIQ" class="client-logo-img"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>CaptivateIQ</h5>
+        <span class="client-sector">SaaS / Sales Commission</span>
+        <p>Full-scope security assessment of their sales commission automation platform — covering multi-tenant data isolation, API authorisation flaws, and SOX compliance controls protecting commission data for 800+ enterprise clients.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-lock"></i> Multi-tenant Isolation</span>
+          <span class="outcome-pill"><i class="fas fa-check-circle"></i> SOX Controls Verified</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#fff;">
+          <img src="images/clients/cloudspinx-logo.jpg" alt="CloudSpinx" class="client-logo-img"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>CloudSpinx</h5>
+        <span class="client-sector">Cloud &amp; DevOps / Kenya</span>
+        <p>Application security assessment for CloudSpinx — evaluating cloud configuration, identity and access management (IAM), network exposure, API security, payment processing and overall resilience of application and platform services.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-cloud"></i> K8s Hardened</span>
+          <span class="outcome-pill"><i class="fas fa-key"></i> Secrets Management</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#fff;">
+          <img src="images/clients/potent-dynamics.jpg" alt="AT&amp;T" class="client-logo-img"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>Potent-Dynamics</h5>
+        <span class="client-sector">Automotive / Cars</span>
+        <p>Application security assessment for Potent-Dynamics — evaluating edge network exposure, API gateway security, and authentication mechanisms across critical their core services.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-network-wired"></i> Web Pentest</span>
+          <span class="outcome-pill"><i class="fas fa-code"></i> API Security</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#fff;">
+          <img src="images/clients/ciriusiq-logo.jpg" alt="CiriusIQ" class="client-logo-img"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>CiriusIQ</h5>
+        <span class="client-sector">Intelligence / Startup</span>
+        <p>Application security assessment for the Pallas environment — evaluating authentication and authorization controls, session management, API security, and overall resilience of platform services against unauthorized access and data loss scenarios.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-heartbeat"></i> HIPAA Controls</span>
+          <span class="outcome-pill"><i class="fas fa-code"></i> Source Code Review</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#fff;">
+          <img src="images/clients/tecno-logo.jpg" alt="TECNO Mobile" class="client-logo-img"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>TECNO Mobile</h5>
+        <span class="client-sector">Mobile / Africa</span>
+        <p>Mobile application security testing (OWASP MASTG) for TECNO's Android ecosystem — including APK reverse engineering, SSL pinning bypass, insecure data storage analysis, and backend API security review for their flagship handset apps.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-mobile-alt"></i> Android MASTG</span>
+          <span class="outcome-pill"><i class="fas fa-shield-alt"></i> APK Hardened</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#27ae60;">
+          <img src="images/clients/safaricom-logo.jpeg" alt="Safaricom PLC" class="client-logo-img" style="border-radius:6px;"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>Safaricom PLC</h5>
+        <span class="client-sector">Telecommunications / Kenya</span>
+        <p>Application security assessment for Safaricom — evaluating authentication and authorization mechanisms, API security, network exposure, and internal systems against unauthorized access and service disruption through their bug bounty programs.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-user-secret"></i> Red Team Op</span>
+          <span class="outcome-pill"><i class="fas fa-money-bill-wave"></i> M-Pesa API Secured</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="client-card reveal">
+      <div class="client-logo-wrap">
+        <div class="client-logo-icon client-logo-img-wrap" style="background:#fff;">
+          <img src="images/clients/workpay-logo.jpg" alt="Workpay Africa" class="client-logo-img"/>
+        </div>
+      </div>
+      <div class="client-info">
+        <h5>Workpay Africa</h5>
+        <span class="client-sector">Fintech &amp; Payroll / Kenya</span>
+        <p>Full-scope API and web application penetration test of their payroll and HR platform, with AI-assisted business-logic attack scenarios targeting salary disbursement flows, IDOR vulnerabilities, and privilege escalation paths.</p>
+        <div class="client-outcome">
+          <span class="outcome-pill"><i class="fas fa-code"></i> 11 API Vulns</span>
+          <span class="outcome-pill"><i class="fas fa-lock"></i> Logic Flaws Closed</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- client stats bar -->
+  <div class="client-stats reveal">
+    <div class="cstat"><span>10</span><small>Clients Secured</small></div>
+    <div class="cstat-div"></div>
+    <div class="cstat"><span>20</span><small>Projects Delivered</small></div>
+    <div class="cstat-div"></div>
+    <div class="cstat"><span>3</span><small>Countries</small></div>
+    <div class="cstat-div"></div>
+    <div class="cstat"><span>15</span><small>Custom Tools Built</small></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TRAINING -->
+<section id="training" class="section" aria-label="Cybersecurity training modules">
+  <p class="section-heading">Build your team</p>
+  <h2 class="section-title">Training Modules</h2>
+  <p class="section-sub">Hands-on training programs designed for real-world scenarios — from ethical hacking fundamentals to cloud security.</p>
+
+  <div class="training-grid">
+    <div class="training-card reveal">
+      <h5><i class="fas fa-terminal"></i> Ethical Hacking Fundamentals</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="85"></div></div>
+      <p>Recon, enumeration, exploitation, and post-exploitation phases with real labs and CTF-style challenges.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-network-wired"></i> Network Reconnaissance</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="75"></div></div>
+      <p>Advanced network discovery, port scanning, OS fingerprinting, and service enumeration for security professionals.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-globe"></i> Web Application Testing</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="90"></div></div>
+      <p>OWASP Top 10, SQLi, XSS, SSRF, XXE, and modern web security testing with Burp Suite.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-user-ninja"></i> Social Engineering</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="60"></div></div>
+      <p>Human psychology in security, phishing simulations, and building organizational awareness programs.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-fire-extinguisher"></i> Incident Response</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="70"></div></div>
+      <p>Rapid threat containment, forensic imaging, log analysis, and business continuity procedures.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-virus"></i> Malware Analysis</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="55"></div></div>
+      <p>Static and dynamic analysis, sandbox detonation, reverse engineering, and threat intelligence.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-cloud"></i> Cloud Security</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="80"></div></div>
+      <p>AWS, Azure, and GCP IAM, misconfiguration scanning, and cloud-native attack simulation.</p>
+    </div>
+    <div class="training-card reveal">
+      <h5><i class="fas fa-mobile-alt"></i> Mobile Security</h5>
+      <div class="progress-wrap"><div class="progress-bar" data-width="65"></div></div>
+      <p>OWASP MASTG for iOS and Android, certificate pinning bypass, and reverse engineering APKs.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about" class="section" aria-label="About HN Labs">
+  <p class="section-heading">Who we are</p>
+  <h2 class="section-title">About HN Labs</h2>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>We are a security-focused team specialising in penetration testing and technical audits across cloud, network, and application environments. Our work spans mobile and web assessments, in-depth API reviews, and source code analysis.</p>
+      <p>Beyond client work, we build scripts and tools to automate tasks for fun, explore new vulnerabilities, integrate AI into security workflows, and share knowledge with the community. Our mission: help organisations secure their systems before attackers do.</p>
+      <p>We combine deep technical expertise with practical experience to deliver security solutions tailored to each client's unique risk profile — with actionable reports, zero fluff.</p>
+      <div class="cert-list">
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> OSCP</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> CISSP</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> CEH</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> SANS GPEN</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> ISO 27001</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> PCI DSS</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> CREST</span>
+        <span class="cert-badge"><i class="fas fa-check-circle"></i> SOC 2</span>
+      </div>
+    </div>
+
+    <div>
+      <p style="font-family:var(--mono);font-size:.75rem;color:var(--text3);margin-bottom:1rem;">// Typical attack chain we simulate</p>
+      <div class="chain">
+        <div class="chain-step reveal"><div class="chain-num">1</div><div><strong>Reconnaissance</strong><br><span>nmap, DNS enum, OSINT, Shodan</span></div></div>
+        <div class="chain-step reveal"><div class="chain-num">2</div><div><strong>Initial Access</strong><br><span>Web exploits, phishing, credential stuffing</span></div></div>
+        <div class="chain-step reveal"><div class="chain-num">3</div><div><strong>Persistence</strong><br><span>Backdoors, scheduled tasks, registry keys</span></div></div>
+        <div class="chain-step reveal"><div class="chain-num">4</div><div><strong>Privilege Escalation</strong><br><span>Kernel exploits, misconfigurations, SUID</span></div></div>
+        <div class="chain-step reveal"><div class="chain-num">5</div><div><strong>Lateral Movement</strong><br><span>SMB, RDP, pass-the-hash, Kerberoasting</span></div></div>
+        <div class="chain-step reveal"><div class="chain-num">6</div><div><strong>Data Exfiltration</strong><br><span>Database dumps, C2 channels, covert transfer</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact" class="section" aria-label="Contact HN Labs">
+  <p class="section-heading">Reach out</p>
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="section-sub">Ready to strengthen your security posture? Our experts are standing by to assess your needs.</p>
+
+  <div class="contact-grid">
+    <div class="contact-card reveal">
+      <i class="fas fa-envelope"></i>
+      <h5>Email</h5>
+      <p>security@hnlabs.me</p>
+      <p style="font-size:.78rem;color:var(--text3);margin-top:.5rem;">Professional consultation</p>
+    </div>
+    <div class="contact-card reveal">
+      <i class="fas fa-phone"></i>
+      <h5>Phone</h5>
+      <p>Available upon request</p>
+      <p style="font-size:.78rem;color:var(--text3);margin-top:.5rem;">Emergency response hotline</p>
+    </div>
+    <div class="contact-card reveal">
+      <i class="fas fa-clock"></i>
+      <h5>Response Time</h5>
+      <p>Within 24 hours</p>
+      <p style="font-size:.78rem;color:var(--text3);margin-top:.5rem;">Incidents: &lt;15 minutes</p>
+    </div>
+  </div>
+
+  <div style="margin-top:2.5rem;display:flex;gap:1rem;flex-wrap:wrap;">
+    <a href="mailto:security@hnlabs.me" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</a>
+    <a href="#services" class="btn btn-ghost"><i class="fas fa-arrow-up"></i> View Services</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+</main>
+<footer aria-label="Site footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        { HN Labs }
+      </div>
+      <p class="footer-text">Professional cybersecurity services to protect your digital assets. Security-focused. Results-driven. Trusted worldwide.</p>
+      <div class="social-row">
+        <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+        <a href="mailto:security@hnlabs.me" class="social-btn"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div>
+      <h6>Services</h6>
+      <div class="footer-links">
+        <a href="#services">Penetration Testing</a>
+        <a href="#services">Security Auditing</a>
+        <a href="#services">Vulnerability Assessment</a>
+        <a href="#services">Incident Response</a>
+        <a href="#services">Cloud Security</a>
+        <a href="#services">Secure Code Review</a>
+      </div>
+    </div>
+    <div>
+      <h6>Company</h6>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#training">Training</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 HN Labs. All rights reserved.</span>
+    <span>Securing your digital future — one test at a time.</span>
+  </div>
+</footer>
+
+
+<script src="js/main.js" defer></script>
 </body>
 </html>
